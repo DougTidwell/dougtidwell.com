@@ -1,2 +1,2 @@
 # dougtidwell.com
-The source for the dougtidwell.com website. 
+This is the source for the dougtidwel.com website. The source code is a combination of HTML5, JavaScript, CSS3, and a Jenkins config file to automate the process of converting the source code (such as it is) into a website that works in any browser on any device. The website is based on node.js, but uses Express, AngularJS, Bootstrap, Cloudant, MongoDB, and other next-generation technologies.
