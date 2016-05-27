@@ -1,0 +1,48 @@
+//- writing.jade
+.row
+  div(class='col-sm-12 col-xs-12 hidden-md hidden-lg')
+    a(name='writing')
+    hr
+.row
+  div(class='col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 visible-sm visible-xs')
+    a(href='http://shop.oreilly.com/product/9780596527211.do') 
+      img(src='images/xslt - purple - top.jpg' style='border: 2px solid #333366;'
+      class='img-responsive' alt="XSLT from O'Reilly")
+div(class='row padded-row')
+  div(class='col-md-9 col-md-offset-3')
+    h1 Writing
+  div(class='hidden-md hidden-lg col-sm-12 col-xs-12')
+    div 
+      include writing_intro.jade
+    div(style='display: none;')
+      include writing_details_1.jade
+      include writing_details_2.jade
+      include writing_details_3.jade
+    a(href='#writing' class='more') Read more
+  div(class='col-md-3 hidden-lg hidden-sm hidden-xs')
+    a(href='http://shop.oreilly.com/product/9780596527211.do') 
+      img(src='images/xslt - purple.jpg' style='border: 2px solid #333366;' class='img-responsive'
+      alt="XSLT from O'Reilly")
+  div(class='col-md-9 hidden-lg hidden-sm hidden-xs')
+    div 
+      include writing_intro.jade
+      | #[br]
+      include writing_details_1.jade
+  div(class='col-md-12 hidden-lg hidden-sm hidden-xs')
+    div
+      | #[br] 
+      include writing_details_2.jade
+      include writing_details_3.jade
+  div(class='col-lg-3 hidden-md hidden-sm hidden-xs')
+    a(href='http://shop.oreilly.com/product/9780596527211.do') 
+      img(src='images/xslt - purple.jpg' style='border: 2px solid #333366;' class='img-responsive'
+      alt="XSLT from O'Reilly")
+  div(class='col-lg-9 hidden-md hidden-sm hidden-xs')
+    div 
+      include writing_intro.jade
+      | #[br]
+      include writing_details_1.jade
+      include writing_details_2.jade
+  div(class='col-lg-12 hidden-md hidden-sm hidden-xs')
+    div
+      include writing_details_3.jade
